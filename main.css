@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.main {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100%;
+  background: no-repeat center/cover url("img/bg_main.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 200px;
+  height: 180px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 15px solid #000000;
+}
+
+.changeColorBtn {
+  background: #1e1e1e;
+  border: none;
+  color: #ffffff;
+  width: 120px;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 15px;
+  display: block;
+}
+.codeColor {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-family: Roboto;
+  color: #1e1e1e;
+  font-weight: bold;
+}
